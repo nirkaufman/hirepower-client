@@ -5,9 +5,8 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `
+    <h1>Hire power</h1>
+  `,
 })
-export class AppComponent {
-  title = 'hirepower-client';
-}
+export class AppComponent {}
